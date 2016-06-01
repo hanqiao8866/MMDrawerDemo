@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		931C57171CFDB23300EC97D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C57161CFDB23300EC97D7 /* main.m */; };
+		931C571A1CFDB23300EC97D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C57191CFDB23300EC97D7 /* AppDelegate.m */; };
+		931C571C1CFDB23300EC97D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931C571B1CFDB23300EC97D7 /* Assets.xcassets */; };
+		931C571F1CFDB23300EC97D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931C571D1CFDB23300EC97D7 /* LaunchScreen.storyboard */; };
+		931C57281CFDB25900EC97D7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C57271CFDB25900EC97D7 /* BaseViewController.m */; };
+		931C572C1CFDB26700EC97D7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C572A1CFDB26700EC97D7 /* MainViewController.m */; };
+		931C572D1CFDB26700EC97D7 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C572B1CFDB26700EC97D7 /* MainViewController.xib */; };
+		931C57311CFDB27400EC97D7 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C572F1CFDB27400EC97D7 /* LeftViewController.m */; };
+		931C57321CFDB27400EC97D7 /* LeftViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C57301CFDB27400EC97D7 /* LeftViewController.xib */; };
+		931C57361CFDB29800EC97D7 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C57341CFDB29800EC97D7 /* RightViewController.m */; };
+		931C57371CFDB29800EC97D7 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C57351CFDB29800EC97D7 /* RightViewController.xib */; };
+		931C57421CFDB3FC00EC97D7 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C573A1CFDB3FC00EC97D7 /* MMDrawerBarButtonItem.m */; };
+		931C57431CFDB3FC00EC97D7 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C573D1CFDB3FC00EC97D7 /* MMDrawerController.m */; };
+		931C57441CFDB3FC00EC97D7 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C573F1CFDB3FC00EC97D7 /* MMDrawerVisualState.m */; };
+		931C57451CFDB3FC00EC97D7 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C57411CFDB3FC00EC97D7 /* UIViewController+MMDrawerController.m */; };
+		931C57491CFDBD5900EC97D7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931C57471CFDBD5900EC97D7 /* DetailViewController.m */; };
+		931C574A1CFDBD5900EC97D7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 931C57481CFDBD5900EC97D7 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		931C57121CFDB23300EC97D7 /* MMDrawerControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMDrawerControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		931C57161CFDB23300EC97D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		931C57181CFDB23300EC97D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		931C57191CFDB23300EC97D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		931C571B1CFDB23300EC97D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		931C571E1CFDB23300EC97D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		931C57201CFDB23300EC97D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931C57261CFDB25900EC97D7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		931C57271CFDB25900EC97D7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		931C57291CFDB26700EC97D7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		931C572A1CFDB26700EC97D7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		931C572B1CFDB26700EC97D7 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		931C572E1CFDB27400EC97D7 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		931C572F1CFDB27400EC97D7 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		931C57301CFDB27400EC97D7 /* LeftViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftViewController.xib; sourceTree = "<group>"; };
+		931C57331CFDB29800EC97D7 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		931C57341CFDB29800EC97D7 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		931C57351CFDB29800EC97D7 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
+		931C57391CFDB3FC00EC97D7 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		931C573A1CFDB3FC00EC97D7 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		931C573B1CFDB3FC00EC97D7 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		931C573C1CFDB3FC00EC97D7 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		931C573D1CFDB3FC00EC97D7 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		931C573E1CFDB3FC00EC97D7 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		931C573F1CFDB3FC00EC97D7 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		931C57401CFDB3FC00EC97D7 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		931C57411CFDB3FC00EC97D7 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		931C57461CFDBD5900EC97D7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		931C57471CFDBD5900EC97D7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		931C57481CFDBD5900EC97D7 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		931C570F1CFDB23300EC97D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		931C57091CFDB23300EC97D7 = {
+			isa = PBXGroup;
+			children = (
+				931C57141CFDB23300EC97D7 /* MMDrawerControllerDemo */,
+				931C57131CFDB23300EC97D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		931C57131CFDB23300EC97D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				931C57121CFDB23300EC97D7 /* MMDrawerControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		931C57141CFDB23300EC97D7 /* MMDrawerControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				931C57181CFDB23300EC97D7 /* AppDelegate.h */,
+				931C57191CFDB23300EC97D7 /* AppDelegate.m */,
+				931C57261CFDB25900EC97D7 /* BaseViewController.h */,
+				931C57271CFDB25900EC97D7 /* BaseViewController.m */,
+				931C57291CFDB26700EC97D7 /* MainViewController.h */,
+				931C572A1CFDB26700EC97D7 /* MainViewController.m */,
+				931C572B1CFDB26700EC97D7 /* MainViewController.xib */,
+				931C572E1CFDB27400EC97D7 /* LeftViewController.h */,
+				931C572F1CFDB27400EC97D7 /* LeftViewController.m */,
+				931C57301CFDB27400EC97D7 /* LeftViewController.xib */,
+				931C57331CFDB29800EC97D7 /* RightViewController.h */,
+				931C57341CFDB29800EC97D7 /* RightViewController.m */,
+				931C57351CFDB29800EC97D7 /* RightViewController.xib */,
+				931C57461CFDBD5900EC97D7 /* DetailViewController.h */,
+				931C57471CFDBD5900EC97D7 /* DetailViewController.m */,
+				931C57481CFDBD5900EC97D7 /* DetailViewController.xib */,
+				931C57381CFDB3FC00EC97D7 /* MMDrawerController */,
+				931C571B1CFDB23300EC97D7 /* Assets.xcassets */,
+				931C571D1CFDB23300EC97D7 /* LaunchScreen.storyboard */,
+				931C57201CFDB23300EC97D7 /* Info.plist */,
+				931C57151CFDB23300EC97D7 /* Supporting Files */,
+			);
+			path = MMDrawerControllerDemo;
+			sourceTree = "<group>";
+		};
+		931C57151CFDB23300EC97D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				931C57161CFDB23300EC97D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		931C57381CFDB3FC00EC97D7 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				931C57391CFDB3FC00EC97D7 /* MMDrawerBarButtonItem.h */,
+				931C573A1CFDB3FC00EC97D7 /* MMDrawerBarButtonItem.m */,
+				931C573B1CFDB3FC00EC97D7 /* MMDrawerController+Subclass.h */,
+				931C573C1CFDB3FC00EC97D7 /* MMDrawerController.h */,
+				931C573D1CFDB3FC00EC97D7 /* MMDrawerController.m */,
+				931C573E1CFDB3FC00EC97D7 /* MMDrawerVisualState.h */,
+				931C573F1CFDB3FC00EC97D7 /* MMDrawerVisualState.m */,
+				931C57401CFDB3FC00EC97D7 /* UIViewController+MMDrawerController.h */,
+				931C57411CFDB3FC00EC97D7 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		931C57111CFDB23300EC97D7 /* MMDrawerControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931C57231CFDB23400EC97D7 /* Build configuration list for PBXNativeTarget "MMDrawerControllerDemo" */;
+			buildPhases = (
+				931C570E1CFDB23300EC97D7 /* Sources */,
+				931C570F1CFDB23300EC97D7 /* Frameworks */,
+				931C57101CFDB23300EC97D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMDrawerControllerDemo;
+			productName = MMDrawerControllerDemo;
+			productReference = 931C57121CFDB23300EC97D7 /* MMDrawerControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		931C570A1CFDB23300EC97D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = X.T.;
+				TargetAttributes = {
+					931C57111CFDB23300EC97D7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 931C570D1CFDB23300EC97D7 /* Build configuration list for PBXProject "MMDrawerControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 931C57091CFDB23300EC97D7;
+			productRefGroup = 931C57131CFDB23300EC97D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				931C57111CFDB23300EC97D7 /* MMDrawerControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		931C57101CFDB23300EC97D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931C571C1CFDB23300EC97D7 /* Assets.xcassets in Resources */,
+				931C574A1CFDBD5900EC97D7 /* DetailViewController.xib in Resources */,
+				931C57371CFDB29800EC97D7 /* RightViewController.xib in Resources */,
+				931C57321CFDB27400EC97D7 /* LeftViewController.xib in Resources */,
+				931C572D1CFDB26700EC97D7 /* MainViewController.xib in Resources */,
+				931C571F1CFDB23300EC97D7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		931C570E1CFDB23300EC97D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931C571A1CFDB23300EC97D7 /* AppDelegate.m in Sources */,
+				931C57311CFDB27400EC97D7 /* LeftViewController.m in Sources */,
+				931C57431CFDB3FC00EC97D7 /* MMDrawerController.m in Sources */,
+				931C57451CFDB3FC00EC97D7 /* UIViewController+MMDrawerController.m in Sources */,
+				931C57441CFDB3FC00EC97D7 /* MMDrawerVisualState.m in Sources */,
+				931C57281CFDB25900EC97D7 /* BaseViewController.m in Sources */,
+				931C57171CFDB23300EC97D7 /* main.m in Sources */,
+				931C57491CFDBD5900EC97D7 /* DetailViewController.m in Sources */,
+				931C572C1CFDB26700EC97D7 /* MainViewController.m in Sources */,
+				931C57361CFDB29800EC97D7 /* RightViewController.m in Sources */,
+				931C57421CFDB3FC00EC97D7 /* MMDrawerBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		931C571D1CFDB23300EC97D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				931C571E1CFDB23300EC97D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		931C57211CFDB23400EC97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		931C57221CFDB23400EC97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		931C57241CFDB23400EC97D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMDrawerControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.MMDrawerControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		931C57251CFDB23400EC97D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMDrawerControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.caxa.MMDrawerControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		931C570D1CFDB23300EC97D7 /* Build configuration list for PBXProject "MMDrawerControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931C57211CFDB23400EC97D7 /* Debug */,
+				931C57221CFDB23400EC97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931C57231CFDB23400EC97D7 /* Build configuration list for PBXNativeTarget "MMDrawerControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931C57241CFDB23400EC97D7 /* Debug */,
+				931C57251CFDB23400EC97D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 931C570A1CFDB23300EC97D7 /* Project object */;
+}
